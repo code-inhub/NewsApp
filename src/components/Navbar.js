@@ -49,7 +49,7 @@ export class Navbar extends Component {
                     Home
                   </Link>{" "}
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link active"
                     aria-current="page"
@@ -57,7 +57,7 @@ export class Navbar extends Component {
                   >
                     About
                   </Link>{" "}
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link active"
