@@ -48,7 +48,7 @@ export class News extends Component {
       Math.ceil(this.state.totalResults / this.props.pageSize)
     ) {
     } else {
-      this.setState({ page: this.state.page + 1 });
+      this.setState({ page: 1 + this.state.page });
       this.updateNews();
     }
   };
