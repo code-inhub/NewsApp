@@ -68,7 +68,7 @@ export class Navbar extends Component {
                     Entertainment{" "}
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link active"
                     aria-current="page"
@@ -76,7 +76,7 @@ export class Navbar extends Component {
                   >
                     General{" "}
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link active"
