@@ -23,7 +23,7 @@ export default class App extends Component {
             progress={this.state.progress}
           />
 
-          <Route exact path="/general">
+          <Route exact path="/">
             <News
               setProgress={this.setProgress}
               key="general"
@@ -51,7 +51,7 @@ export default class App extends Component {
               category="entertainment"
             />
           </Route>
-          {/* <Route exact path="/general">
+          <Route exact path="/general">
             <News
               setProgress={this.setProgress}
               key="general"
@@ -59,7 +59,7 @@ export default class App extends Component {
               country="in"
               category="general"
             />
-          </Route> */}
+          </Route>
           <Route exact path="/health">
             <News
               setProgress={this.setProgress}
